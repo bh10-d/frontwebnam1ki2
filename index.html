@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- add link bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- add carousel glider -->
+    <script src="glide.min.js"></script>
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
     <title>Document</title>
 </head>
 <body>
@@ -39,14 +44,179 @@
 </div>
 </nav>
 
-<section>
-  
-12
+<section class="section1">
 
+    <img src="Image/background3.jpg" alt="">
+
+</section>
+
+<section class="section2">
+
+    <div class="mySlideProduct glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/traicay.jpg" alt="">
+                        <p class="nameProduct">Fruit</p>
+                    </div> 
+                </li>
+            
+            
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/do_kho.jpg" alt="">
+                        <p class="nameProduct">do kho</p>
+                    </div>
+                </li>
+            
+            
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/do_uong.jpg" alt="">
+                        <p class="nameProduct">do uong</p>
+                    </div>
+                </li>
+            
+            
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/haisan.png" alt="">
+                        <p class="nameProduct">hai san</p>
+                    </div>
+                </li>
+            
+            
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/rau_cu.jpg" alt="">
+                        <p class="nameProduct">rau cu</p>
+                    </div>
+                </li>
+            
+            
+                <li class="glide__slide">
+                    <div class="box">
+                        <img src="image/thit_trung.jpg" alt="">
+                        <p class="nameProduct">thit trung</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="normal glide__arrow glide__arrow--left" data-glide-dir="<">
+                &lt;
+            </button>
+
+            <button class="normal glide__arrow glide__arrow--right" data-glide-dir=">">
+                &gt;
+            </button>
+        </div>
+
+    </div>
+<!-- this is section3 -->
+    <div class="div2">
+        <div class="imageElement">
+            <img src="image/linkTraiCaytuoi.png" alt="">
+        </div>
+        
+        <div class="imageElement">
+            <img src="image/linkRausach.png" alt="">
+        </div>
+    </div>
+
+    <div class="div3">
+        <h2>Sản phẩm bán chạy</h2>
+        <div class="item-slide">
+
+            <div class="mySlideProduct glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/traicay.jpg" alt="">
+                            <p class="nameProduct">Fruit</p>
+                        </div> 
+                    </li>
+            
+            
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/do_kho.jpg" alt="">
+                            <p class="nameProduct">do kho</p>
+                        </div>
+                    </li>
+            
+            
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/do_uong.jpg" alt="">
+                            <p class="nameProduct">do uong</p>
+                        </div>
+                    </li>
+            
+            
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/haisan.png" alt="">
+                            <p class="nameProduct">hai san</p>
+                        </div>
+                    </li>
+            
+            
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/rau_cu.jpg" alt="">
+                            <p class="nameProduct">rau cu</p>
+                        </div>
+                    </li>
+            
+            
+                    <li class="glide__slide">
+                        <div class="box">
+                            <img src="Image/thit_trung.jpg" alt="">
+                            <p class="nameProduct">thit trung</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    &lt;
+                </button>
+
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                    &gt;
+                </button>
+            </div>
+
+        </div>
+        
+
+        </div>
+
+        
+    </div>
+        
+    
 </section>
 
 
 
 <script src="javascript.js"></script>
+<script>
+    new Glide(".mySlideProduct",{
+        type: 'carousel',
+        perView: 4,
+        focusAt: 'center',
+        gap: 5
+    }).mount();
+
+
+</script>
 </body>
 </html>

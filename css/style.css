@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:ital@1&display=swap');
+
+body,*,html {
+    margin: 0;
+    padding: 0;
+
+}
+/* navbar */
+nav .navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    z-index: 999;
+
+
+}
+.scrollScreen { 
+    /* color:  greenyellow !important; */
+    background-color: greenyellow;
+
+}
+nav .navbar .navbar-title a { 
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+nav .navbar .navbar-link a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+nav .navbar .navbar-search form{
+    width: 100%;
+    
+}
+nav .navbar .navbar-search  input[type=text] {
+    float:left;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    height: 30px;
+    width: 150px;
+    margin-right: 0;
+    border-radius: 50px 0 0 50px;
+}
+.navbar .navbar-search form button{
+    float: left;
+    padding: 3px 20px;
+    border: none;
+    outline: none;
+    border-radius: 0 50px 50px 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+.navbar .navbar-search form button:hover {
+    background-color: darkgray;
+}
+/* .background img{
+    width: 100%;
+    height: 80vh;
+} */
+@media only screen and (max-width: 950px) {
+    
+}
+
+
+
+.section1 {
+    max-width: 100%;
+    
+}
+.section1 img{
+    width: 100%;
+    height: auto;
+}
+.section2 {
+    width: 80%;
+    position: relative;
+    top: -50px;
+    margin: 0  auto;
+    
+}
+.mySlideProduct {
+    max-width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   black
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    font-size: 25px;
+    /* margin:0 30px; */
+}
+.glide__arrows .normal{
+    display: none;
+}
+.mySlideProduct:hover .glide__arrows .normal{
+    display: inline-block;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.imageElement {
+    width: 48%;
+    height: 100px;
+}
+.imageElement img{
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.imageElement img:hover{
+    transform: scale(1.02);
+}
+.div3 {
+    width: 100%;
+    
+    text-align: center;
+    position: relative;
+    top: 300px;
+    background-color: black;
+}
+.div3 .item-slide {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
