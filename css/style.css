@@ -63,24 +63,16 @@ nav .navbar .navbar-search  input[type=text] {
 .navbar .navbar-search form button:hover {
     background-color: darkgray;
 }
-/* .background img{
+/* background chinh cua trang web */
+.background img{
     width: 100%;
     height: 80vh;
-} */
+}
+
 @media only screen and (max-width: 950px) {
     
 }
 
-
-
-.section1 {
-    max-width: 100%;
-    
-}
-.section1 img{
-    width: 100%;
-    height: auto;
-}
 .section2 {
     width: 80%;
     position: relative;
@@ -107,13 +99,19 @@ nav .navbar .navbar-search  input[type=text] {
     font-size: 25px;
     /* margin:0 30px; */
 }
-.glide__arrows .normal{
+.glide__arrows button.normal{
+    color: black;
     display: none;
 }
 .mySlideProduct:hover .glide__arrows .normal{
     display: inline-block;
 }
-
+/* css cua quang cao  */
+section.ahuhuhu {
+    width: 80%;
+    position: relative;
+    left: 150px;
+}
 .div2 {
     display: flex;
     justify-content: space-between;
@@ -132,30 +130,22 @@ nav .navbar .navbar-search  input[type=text] {
 .imageElement img:hover{
     transform: scale(1.02);
 }
+
+/* css slide sản phẩm bán chạy */
 .div3 {
-    width: 100%;
-    
+    width: 80%;
     text-align: center;
     position: relative;
     top: 300px;
-    
+    left: 150px;
+    margin: 50px 0;
 }
 .div3 .item-slide {
     display: flex; 
-     justify-content: space-between;
+    justify-content: space-between;
     flex-direction: row;
     margin-top: 20px;
 
-
-    
-        /* max-width: 100%;
-        height: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white; */
-        
-    
 }
 .product {
     display: flex;
@@ -164,7 +154,7 @@ nav .navbar .navbar-search  input[type=text] {
     justify-content: space-around;
     box-sizing: border-box;
     font-size: 25px;
-    /* margin:0 30px; */
+    margin:0 30px;
 }
 .product img {
     max-width: 250px;
@@ -173,18 +163,16 @@ nav .navbar .navbar-search  input[type=text] {
 .item-slide:hover .glide__arrows .normal{
     display: inline-block;
 }
-.section3{
+/* css cua tin tuc */
+article.section3{
     width: 80%;
     height: 200px;
     position: relative;
     top: 250px;
-    margin: 0  auto;
+    margin: 0 auto 50px;
+    padding: 20px 0;
 }
 
-
-.div4 {
-    
-}
 .div4 h2{
     text-align: center;
     margin: 20px 0 25px;
@@ -219,6 +207,7 @@ a .article-element img{
     height: auto;
     
 }
+/* css cua footer */
 footer {
     background-color: #112459;
     position: relative;
