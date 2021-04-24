@@ -94,9 +94,10 @@ nav .navbar .navbar-search  input[type=text] {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:   black
+    background-color: white;
     
 }
+
 .box {
     display: flex;
     flex-direction: column;
@@ -137,11 +138,50 @@ nav .navbar .navbar-search  input[type=text] {
     text-align: center;
     position: relative;
     top: 300px;
-    background-color: black;
+    
 }
 .div3 .item-slide {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+     justify-content: space-between;
     flex-direction: row;
     margin-top: 20px;
+
+
+    
+        /* max-width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white; */
+        
+    
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    font-size: 25px;
+    /* margin:0 30px; */
+}
+.product img {
+    max-width: 250px;
+    height: auto;
+}
+.item-slide:hover .glide__arrows .normal{
+    display: inline-block;
+}
+.section3{
+    width: 80%;
+    height: 200px;
+    position: relative;
+    top: 250px;
+    margin: 0  auto;
+}
+
+
+.div4 {
+    text-align: center;
 }
