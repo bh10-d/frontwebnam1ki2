@@ -37,6 +37,16 @@ nav .navbar .navbar-link a {
     margin: 10px;
     color: black;
 }
+
+a:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: grab;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
 nav .navbar .navbar-search form{
     width: 100%;
     
