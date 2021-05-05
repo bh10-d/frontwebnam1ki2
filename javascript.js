@@ -10,3 +10,16 @@ function addClassNav() {
     }
 }
 
+function openBtn(){
+    document.getElementById("myNav").style.left = "0";
+}
+function closeNav(){
+    document.getElementById("myNav").style.left = "-100%";
+}
+
+function openSearch(){
+    document.getElementById("mySearch").style.left = "0";
+}
+function closeSearch(){
+    document.getElementById("mySearch").style.left ="-100%";
+}
