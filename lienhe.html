@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -213,7 +212,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="bars-reponsive-content">
           <a href="trangchu.html">TRANG CHỦ</a>
-          <a href="#">GIỚI THIỆU</a>
+          <a href="gioithieu.html">GIỚI THIỆU</a>
           <a href="RauCu.html">CỬA HÀNG</a>
           <a href="blog.html">TIN TỨC</a>
           <a href="lienhe.html">LIÊN HỆ</a>
@@ -223,7 +222,7 @@
 
       <div class="navbar-link">
         <a href="trangchu.html">TRANG CHỦ</a>
-        <a href="#">GIỚI THIỆU</a>
+        <a href="gioithieu.html">GIỚI THIỆU</a>
         <a href="RauCu.html">CỬA HÀNG</a>
         <a href="blog.html">TIN TỨC</a>
         <a href="lienhe.html">LIÊN HỆ</a>
@@ -400,7 +399,7 @@
       <div class="element-footer">
         <h5>Danh mục</h5>
         <a href="trangchu.html">Trang chủ</a>
-        <a href="#">Giới thiệu</a>
+        <a href="gioithieu.html">Giới thiệu</a>
         <a href="RauCu.html">Cửa hàng</a>
         <a href="blog.html">Tin tức</a>
         <a href="lienhe.html">Liên hệ</a>
@@ -486,261 +485,4 @@
     }
   </script> -->
 </body>
-=======
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Liên hệ - Trái Cây Cao Cấp</title>
-    <link href="CSDL.css" rel="stylesheet" type="text/css" />
-    <style>
-      .lh {
-        font-weight: bold;
-      }
-      .lh2 {
-        color: #551aa8;
-      }
-      .lh3 {
-        color: #808080;
-      }
-      .lh1 {
-        color: #ff0000;
-      }
-      article ul li {
-        margin-left: 40px;
-        margin-bottom: 15px;
-        color: #f00;
-      }
-      h2 {
-        color: #808080;
-        text-align: center;
-        font-style: italic;
-      }
-      .h {
-        width: 250px;
-        height: 40px;
-        border-radius: 10px;
-        border: 2px solid #f42b5d;
-      }
-      .ha {
-        width: 575px;
-        height: 40px;
-        border-radius: 10px;
-        border: 2px solid #f42b5d;
-      }
-      .hh {
-        border-radius: 10px;
-        border: 2px solid #f42b5d;
-      }
-      .hu {
-        padding: 0 75px;
-      }
-      button {
-        background-color: #f42b5d;
-        color: white;
-        height: 40px;
-        width: 110px;
-        border-radius: 7px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div id="menu">
-      <header>
-        <img src="Image/background_website.jpg" width="972px" height="250px" />
-      </header>
-      <br />
-      <nav>
-        <ul class="bang">
-          <li><a href="index.html"> TRANG CHỦ</a></li>
-          <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
-          <li>
-            <a href="tintuc.html">TIN TỨC</a>
-          </li>
-          <li><a href="huongdan.html">HƯỚNG DẪN MUA HÀNG</a></li>
-          <li><a href="lienhe.html">LIÊN HỆ</a></li>
-        </ul>
-      </nav>
-
-      <article>
-        <br />
-        <img src="Image/Lienhe.png" width="700px" />
-        <br />
-        <br />
-        <form onsubmit="return validateForm()">
-          <div>
-            &nbsp;&nbsp<a>Họ Tên*</a>&nbsp;&nbsp;
-            <input
-              class="h"
-              type="text"
-              id="username"
-              placeholder="Mời bạn nhập tên"
-            />
-            <div class="val_error" id="name_error"></div>
-          </div>
-          <br />
-          <div>
-            &nbsp;&nbsp<a>Email*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input
-              class="h"
-              type="text"
-              id="email"
-              placeholder="Mời bạn nhập email"
-            />
-            <div class="val_error" id="email_error"></div>
-          </div>
-          <br />
-          <div>
-            &nbsp;&nbsp<a>Tiêu Đề</a>&nbsp;&nbsp;&nbsp;
-            <input
-              class="ha"
-              type="text"
-              id="topic"
-              placeholder="Mời bạn nhập tiêu đề"
-            />
-            <div class="val_error" id="topic_error"></div>
-          </div>
-          <br />
-          <div>
-            &nbsp;&nbsp<a>Nội Dung</a>
-            <textarea
-              class="hh"
-              rows="10"
-              cols="70"
-              id="content"
-              placeholder="Mời bạn nhập ý kiến phản hồi"
-            ></textarea>
-            <div class="val_error" id="content_error"></div>
-          </div>
-          <br />
-          <div class="hu"><button type="submit">Gửi Thông Tin</button></div>
-        </form>
-        <script>
-          var username = document.getElementById("username");
-          var email = document.getElementById("email");
-          var topic = document.getElementById("topic");
-          var content = document.getElementById("content");
-          var name_error = document.getElementById("name_error");
-          var email_error = document.getElementById("email_error");
-          var topic_error = document.getElementById("topic_error");
-          var content_error = document.getElementById("content_error");
-          function validateForm() {
-            if (username.value == "") {
-              username.style.border = "2px solid red";
-              name_error.innerHTML =
-                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bạn cần nhập họ tên";
-              username.focus();
-              return false;
-            }
-            var acong = email.value.indexOf("@");
-            var dot = email.value.lastIndexOf(".");
-
-            if (
-              email.value == "" ||
-              acong < 1 ||
-              dot < acong + 2 ||
-              dot + 2 >= email.value.length
-            ) {
-              email.style.border = "2px solid red";
-              email_error.innerHTML =
-                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bạn cần nhập đúng email";
-              email.focus();
-              return false;
-            }
-            if (topic.value == "") {
-              topic.style.border = "2px solid red";
-              topic_error.innerHTML =
-                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bạn cần nhập tiêu đề";
-              topic.focus();
-              return false;
-            }
-            if (content.value == "") {
-              content.style.border = "2px solid red";
-              content_error.innerHTML =
-                "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bạn cần nhập nội dung";
-              content.focus();
-              return false;
-            }
-          }
-        </script>
-        <div align="center" class="lh">
-          <a class="lh1">Xin liên hệ ngay với</a>
-          <a class="lh2">Mặt Hàng Trái Cây</a>
-          <a class="lh1"> để biết thêm thông tin về giá cả sản phẩm:</a><br />
-          <a class="lh3">Điện thoại:</a
-          ><a class="lh1"> 0868 017117 ~ 0904 245355;</a><br />
-          <a class="lh3">Facebook:</a><a class="lh1"> Bùi Đức Hiếu</a>
-        </div>
-        <br />
-        <ul style="list-style: circle">
-          <li>Quý khách nhận hàng mới thanh toán tiền;</li>
-          <li>Giao hàng trực tiếp với Khách hàng tại Đà Nẵng;</li>
-          <li>
-            Khách hàng ở tỉnh khác chúng tôi sẽ chuyển phát nhanh theo đường bưu
-            điện;
-          </li>
-          <li>
-            Miễn phí toàn bộ cước vận chuyển đối với khách hàng mua lẻ trên toàn
-            quốc.
-          </li>
-        </ul>
-        <h2>***Trân trọng cảm ơn sự quan tâm của quý khách hàng***</h2>
-      </article>
-
-      <aside>
-        <div class="menu1">
-          <h3>DANH MỤC SẢN PHẨM</h3>
-          <img src="Image/icon2.png" />
-          <ul style="list-style-image: url(Image/1.png)">
-            <li><a>chuối</a></li>
-            <li><a>bắp cải</a></li>
-            <li><a>chanh không hạt</a></li>
-            <li><a>cà chua</a></li>
-            <li><a>bắp mì</a></li>
-            <li><a>cam</a></li>
-            <li><a>dâu tây đà lạt</a></li>
-            <li><a>đồ uống</a></li>
-          </ul>
-        </div>
-        <br />
-        <div class="menu2" align="center">
-          <h3>HỖ TRỢ TRỤC TUYẾN</h3>
-          <img src="Image/icon2.png" />
-          <p>Tư vấn 1</p>
-          <a href="https://www.facebook.com/dhieu2501"
-            ><img src="Image/anhhieu.jpg" width="110px" height="150px"
-          /></a>
-          <p>Điện Thoại : 0982410285</p>
-          <hr />
-          <p>Tư vấn 2</p>
-          <img src="Image/icon2.png" />
-          <a href="https://www.facebook.com/profile.php?id=100012308586357"
-            ><img src="Image/anhdung.jpg" width="110px" height="150px"
-          /></a>
-          <p>Điện Thoại : 01245575485</p>
-        </div>
-        <div class="menu2" align="center">
-          <h3>ĐỊA CHỈ SHOP</h3>
-          <img src="Image/icon2.png" />
-          <div>
-            <h4>193 Nguyễn Lương Bằng,Quận Liên Chiểu, thành phố Đà Nẵng</h4>
-          </div>
-        </div>
-      </aside>
-      <footer align="center">
-        <br />
-        <marquee class="chuchay1">Hàng Việt Nam Chất Lượng Cao</marquee>
-        <div class="ketthuc">
-          <a href="index.html">Trái cây sạch sẽ không chất độc hại</a>
-        </div>
-        <br />
-        <b>Địa chỉ: 193 Nguyễn Lương Bằng,Quận Liên Chiểu, thành phố Đà Nẵng</b>
-        <br />
-        <br />
-        <p>Hotline của shop: 0868 017117 ~ 0904 245355</p>
-      </footer>
-    </div>
-  </body>
->>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 </html>
