@@ -265,6 +265,8 @@ header {
 
 /*body*/
 
+
+
 .detail{
     /* background-color: #EFEFEF; */
     margin-top: 20px;
@@ -287,6 +289,7 @@ header {
 .img-caro{
     position: relative;
     left: 19%;
+
 }
 
 @media screen and (max-width: 1240px){
