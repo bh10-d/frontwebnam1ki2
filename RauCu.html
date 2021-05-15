@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cửa Hàng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/RauCu.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!-- link bootstrap for Login Logout -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style-blog.css">
+    <!-- <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css.map">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css.map"> -->
+    
+    <!-- <link rel="stylesheet" href="glide.theme.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  
+    <!--End.....-->
+  
+  
+  
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav> -->
+    <!-- phan dau cua trang web -->
+<header>
+  <div class="header">
+      <div class="logo">
+          <a href="trangchu.html"><img src="Image/logo.png" alt=""></a>
+      </div>
+
+      <div class="navbar-search">
+          <form action="#">
+              <input type="text" name="search" placeholder="Search...">
+              <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+              
+      </div>
+
+      <!-- <div class="SignIn-LogIn">
+          <button type="submit" class="btn btn-outline-primary">Sign up</button>
+          <button type="submit" class="btn btn-outline-success">Log in</button>
+      </div> -->
+
+
+
+      <!-- login register.... -->
+      <div class="SignIn-LogIn">
+        <a href="register.html" class="btn bg-btn" data-toggle="modal"
+            data-target="#myRegister">Đăng kí</a>
+            <div class="modal fade" id="myRegister">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title">Đăng kí</div>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" class="needs-validation" novalidate>
+
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input class="form-control" type="text" name="firstname"
+                                                id="firstname" placeholder="Nhập họ" required>
+                                            <label for="firstname">Họ</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điến vào trường này</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input class="form-control" type="text" name="lastname"
+                                                id="lastname" placeholder="Nhập tên" required>
+                                            <label for="lastname">Tên</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điến vào trường này</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input class="form-control" type="text" name="uname" id="uname"
+                                        placeholder="Nhập tên tài khoản" required>
+                                    <label for="uname">Nhập tên tài khoản</label>
+                                    <div class="valid-feedback">Có hiệu lực</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input class="form-control" type="email" name="email" id="email"
+                                        placeholder="Nhập email" required>
+                                    <label for="email">Nhập email</label>
+                                    <div class="valid-feedback">Có hiệu lực</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input class="form-control" type="password" name="pwd" id="pwd"
+                                                placeholder="Nhập mật khẩu" required>
+                                            <label for="pwd">Nhập mật khẩu</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input class="form-control" type="password" name="rpwd"
+                                                id="rpwd" placeholder="Nhập lại mật khẩu" required>
+                                            <label for="rpwd">Nhập lại mật khẩu</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label" for="">
+                                    <input class="form-check-input" type="checkbox" name="remember"
+                                        required>Tôi đồng ý tất cả
+                                    các điều khoản
+                                    <div class="valid-feedback">Có hiệu lực</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
+                                </label>
+                            </div>
+                            <div class="text-center">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="loginv2.html" class="btn text-primary">Đăng nhập</a>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <button type="submit" class="btn btn-primary register">Đăng kí</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="text-center">
+                            <a class="small" href="#">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="loginv2.html" class="btn bg-btn" data-toggle="modal"
+            data-target="#myLogin">Đăng nhập</a>
+        <div class="modal fade" id="myLogin">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <h4 class="modal-title">Đăng Nhập
+                    </div>
+                    <div class="modal-body text-left">
+                        <form action="/panel.html">
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="text" class="form-control" id="username"
+                                        placeholder="Nhập tài khoản" name="email">
+                                    <label for="username">Tài Khoản</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="password" class="form-control" id="pwdd"
+                                        placeholder="Nhập mật khẩu" name="pswd">
+                                    <label for="pwdd">Mật khẩu</label>
+                                </div>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Ghi nhớ
+                                    đăng nhập
+                                </label>
+                            </div>
+                            <div class="row">
+                                <div class="col text-center">
+                                    <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end login register -->
+
+
+  </div>
+</header>
+
+<!-- navigation -->
+<nav>
+<div class="navbar">
+       
+  <div class="nav-sign">
+      <button type="button" onclick="openBtn()">
+          <i class="fa fa-bars"></i>
+      </button>
+      
+  </div>
+
+  <div id="myNav" class="bars-reponsive">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="bars-reponsive-content">
+          <a href="trangchu.html">TRANG CHỦ</a>
+          <a href="#">GIỚI THIỆU</a>
+          <!-- cửa hàng -->
+          
+          <!-- end -->
+
+          <a href="RauCu.html">CỬA HÀNG</a>
+          <a href="blog.html">TIN TỨC</a>
+          <a href="lienhe.html">LIÊN HỆ</a>
+      </div>
+      
+  </div>
+
+
+  <div class="navbar-link">
+      <a href="trangchu.html">TRANG CHỦ</a>
+      <a href="#">GIỚI THIỆU</a>
+
+      <!-- chổ ni xổ xuống -->
+      <div class="dropdown">
+        <button style="background-color: greenyellow; outline: none; border: none;" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Cửa hàng
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+      </div>
+      
+
+      <!-- <a href="RauCu.html">CỬA HÀNG</a> -->
+      <a href="blog.html">TIN TỨC</a>
+      <a href="lienhe.html">LIÊN HỆ</a>
+  </div>
+
+  <div class="search-sign">
+      <button type="button" onclick="openSearch()">
+          <i class="fa fa-search"></i>
+      </button>
+
+  </div>
+
+  <div id="mySearch" class="search-responsive">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+      <div class="search-responsive-content">
+          <form action="#">
+              <input type="text" placeholder="Search...">
+              <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+      </div>
+
+  </div>
+
+  <div class="SignIn-LogIn-nav">
+      <button type="button">
+          <i class="fas fa-sign-in-alt"></i>
+      </button>
+  </div>
+
+</div>
+</nav>
+
+
+
+    <!--Main-->
+   <div class="bg-light">
+    <div class="container-fluid" id="tag-tool">
+      <div class="tag">
+        <a href="" style="font-weight: bold;">TRANG CHỦ</a>
+        <span>/</span>
+        <a href="" class="active" style="color: black;font-weight: bold;">RAU CỦ</a>
+      </div>
+      <div class="searching">
+        <form> 
+         <input type="text" id="text-type" name="search" placeholder="Nhập Sản Phẩm...">
+        </form>
+      </div>  
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+          <aside>
+            <span class="list-group-item" id="list-product-title">DANH MỤC SẢN PHẨM</span>
+              <ul class="list-group list-product">
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">11</span>
+                  <span>Rau củ</span>
+                </li></a>
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">5</span>
+                  <span>Hải sản</span>
+                </li></a>
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">12</span>
+                  <span>Trái cây</span>
+                </li></a>
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">6</span>
+                  <span>Đồ uống</span>
+                </li></a>
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">12</span>
+                  <span>Đồ khô</span>
+                </li></a>
+                <a href="" class="list-group-item"><li>                 
+                  <span class="badge dot">5</span>
+                  <span>Thịt trứng</span>
+                </li></a>
+              </ul>
+          </aside>
+          <aside id="form-2">
+            <span class="list-group-item" id="list-title">SẢN PHẨM PHỔ BIẾN</span>
+            <ul class="list-group list-commoner">
+              <li class="list-group-item" style="width: 100%;float: left;">
+                <a href="">
+                  <img style="width: 60px;height: 60px;float: left;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p5.jpg" alt="img-1">
+                  <span class="product-title">Bắp cải</span>
+                  <span class="d-block">65,000&nbsp;<span>₫</span></span>
+                </a>
+              </li>
+              <li class="list-group-item" style="width: 100%;float: left;">
+                <a href="">
+                  <img style="width: 60px;height: 60px;float: left;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p2.jpg" alt="img-2">
+                  <span class="product-title">Bắp mỹ</span>
+                  <span class="d-block">75,000&nbsp;<span>₫</span></span>
+                </a>
+              </li>
+              <li class="list-group-item" style="width: 100%;float: left;">
+                <a href="">
+                  <img style="width: 60px;height: 60px;float: left;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p6.jpg" alt="img-3">
+                  <span class="product-title">Chuối</span>
+                  <span class="d-block">35,000&nbsp;<span>₫</span></span>
+                </a>
+              </li>
+              <li class="list-group-item" style="width: 100%;float: left;">
+                <a href="">
+                  <img style="width: 60px;height: 60px;float: left;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p3.jpg" alt="img-4">
+                  <span class="product-title">Cà chua</span>
+                  <span class="d-block">75,000&nbsp;<span>₫</span></span>
+                </a>
+              </li>
+              <li class="list-group-item" style="width: 100%;float: left;">
+                <a href="">
+                  <img style="width: 60px;height: 60px;float: left;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p10.jpg" alt="img-5">
+                  <span class="product-title">Ớt chuông</span>
+                  <span class="d-block">55,000&nbsp;<span>₫</span></span>
+                </a>
+              </li>
+            </ul>
+          </aside>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-8 col-lg-9">
+        <div class="row product-all">
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="">
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p5.jpg" alt="">
+                <span style="display:block;">Bắp cải</span>
+                <span class="">65,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/upload_1d1797f33c5140e4a7742aa0470d77e5_master-600x600.jpg" alt="">
+                <span style="display:block;">Bưởi</span>
+                <span class="">75,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p3.jpg" alt="">
+                <span style="display:block;">Cà chua</span>
+                <span class="">75,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/upload_ab2003c7b7e445f6a551b92f559c4881_master-600x600.jpg" alt="">
+                <span style="display:block;">Cải bó xôi</span>
+                <span class="">29,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/upload_1c4b595369214f1da01e1ee7dfe9b948_master-600x600.jpg" alt="">
+                <span style="display:block;">Cam xoàn hướng</span>
+                <span class="">65,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p12-600x600.jpg" alt="">
+                <span style="display:block;">Chanh</span>
+                <span class="">85,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p6.jpg" alt="">
+                <span style="display:block;">Chuối</span>
+                <span class="">35,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p16-600x600.jpg" alt="">
+                <span style="display:block;">Nho</span>
+                <span class="">145,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/p10.jpg" alt="">
+                <span style="display:block;">Ớt chuông</span>
+                <span class="">55,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/sau_rieng_ri6_2_5635cf70bdbc413db7ccdb9bbc5955ed_master.jpg" alt="">
+                <span style="display:block;">Sầu riêng</span>
+                <span class="">135,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <div>
+              <a href="">
+                <img style="width: 200px;height: 200px;" src="http://mauweb.monamedia.net/vuonrau/wp-content/uploads/2019/05/dragon-fruit-1490952843346-crop-1490953174156-2057-300x300.jpg" alt="">
+                <span style="display:block;">Thanh long</span>
+                <span class="">45,000&nbsp;<span>₫</span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+   </div>
+
+
+
+<!-- html footer  -->
+<footer>
+    <h2>Hãy đến với chúng tôi</h2>
+    <div class="all-element-footer">
+        
+        <div class="element-footer-info">
+            <div class="logo">
+                <a href="trangchu.html"></a><img src="Image/logo.png" alt=""></a>
+            </div>
+
+            
+            <p><span><i class="fas fa-map-marker-alt"></i></span>193 Nguyễn Lương 
+            Bằng,Quận Liên Chiểu, thành phố Đà Nẵng</p>
+            <p><span><i class="fas fa-phone"></i></span>0123456789</p>
+            <p><span><i class="fas fa-envelope"></i></span>ahihi@gmail.com</p>
+            <p><span><i class="fab fa-facebook-square"></i></span>https://facebook/info/huyleader</p>
+            
+        </div>
+
+        <div class="element-footer">
+            <h5>Sản phẩm</h5>
+            <a href="RauCu.html">Rau củ</a>
+            <a href="RauCu.html">Hải sản</a>
+            <a href="RauCu.html">Trái cây</a>
+            <a href="RauCu.html">Đồ uống</a>
+            <a href="RauCu.html">Thịt trứng</a>
+        </div>
+
+        <div class="element-footer">
+            <h5>Danh mục</h5>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="RauCu.html">Cửa hàng</a>
+            <a href="blog.html">Tin tức</a>
+            <a href="lienhe.html">Liên hệ</a>
+        </div>
+
+        <div class="element-footer">
+            <h5>Dịch vụ</h5>
+            <a href="RauCu.html">Rau củ</a>
+            <a href="RauCu.html">Hải sản</a>
+            <a href="RauCu.html">Trái cây</a>
+            <a href="RauCu.html">Đồ uống</a>
+            <a href="RauCu.html">Thịt trứng</a>
+        </div>
+
+        <div class="element-footer">
+            <h5>Đăng kí</h5>
+            <p>Đăng kí để nhận được thông tin mới nhất từ chúng tôi</p>
+            
+            <div class="footer-container-form">
+                <form action="#">
+                    <input type="text">
+                    <button type="submit"><i class="far fa-paper-plane"></i></button>
+                </form>
+            </div>
+        
+            <div class="link-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+                
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+   <script>
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

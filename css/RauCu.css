@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:ital@1&display=swap');
 
+
 body,*,html {
     margin: 0;
     padding: 0;
@@ -61,54 +62,6 @@ header .header .navbar-search button[type=submit]{
     background-color: greenyellow;
     border-radius: 0 5px 5px 0;
 }
-
-/*animation form login and register*/
-
-.form-label-group {
-    position: relative;
-}
-  
-.form-label-group > input,
-.form-label-group > label {
-    padding: var(--input-padding-y) var(--input-padding-x);
-    height: auto;
-}
-  
-.form-label-group > label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    margin-bottom: 0;
-    line-height: 1.5;
-    color: #495057;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    -webkit-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-  
-.form-label-group input::-webkit-input-placeholder {
-    color: transparent;
-}
-  
-.form-label-group input:not(:placeholder-shown) {
-    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
-    padding-bottom: calc(var(--input-padding-y) / 3);
-}
-  
-.form-label-group input:not(:placeholder-shown) ~ label {
-    padding-top: calc(var(--input-padding-y) / 3);
-    padding-bottom: calc(var(--input-padding-y) / 3);
-    font-size: 12px;
-    color: #777;
-}
-/*end animation form login and register*/ 
-
-
-
-
 @media only screen and (max-width: 970px) {
     
     header .header .navbar-search{
@@ -246,8 +199,6 @@ nav .navbar .navbar-link {
     display: flex;
     justify-content: space-around;
 }
-
-
 nav .navbar .navbar-link a {
     text-decoration: none;
     margin: 10px;
@@ -313,237 +264,179 @@ header .header .navbar-search form{
         color:aliceblue;
     }
 }
-/* background chinh cua trang web */
-.background {
-    background-image: url("/Image/background_last.jpg");
 
+
+
+
+/*animation form login and register*/
+
+.form-label-group {
     position: relative;
+}
+  
+.form-label-group > input,
+.form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+}
+  
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
     width: 100%;
-    height: 80vh;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
-.background h1{
-    position: absolute;
-    top: 40%;
-    left: 17%;
-    font-size: 3em;
-    color: whitesmoke;
+  
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
 }
-.background a{
-    position: absolute;
-    top: 60%; 
-    left: 41%;
-    /* text-align: center; */
+  
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
 }
-#custom-a {
-    border-radius: 5px;
-    padding: 15px 55px;
-    font-size: 2em;
-    
+  
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
 }
-@media only screen and (max-width:1295px){
-    .background h1{
-        position: absolute;
-        top: 40%;
-        left: 13%;
-        font-size: 2.5em;
-        color: whitesmoke;
-    }
-    .background a{
-        position: absolute;
-        top: 60%; 
-        left: 40%;
-    }
-    #custom-a {
-        border-radius: 5px;
-        padding: 10px 45px;
-        font-size: 1.6em;
-        
-    }
+/*end animation form login and register*/
 
-}
-@media only screen and (max-width:1075px){
-    .background h1{
-        position: absolute;
-        top: 40%;
-        left: 3%;
-        font-size: 2.1em;
-        color: whitesmoke;
-    }
-    .background a{
-        position: absolute;
-        top: 56%; 
-        left: 3%;
-    }
-    #custom-a {
-        border-radius: 5px;
-        padding: 10px 45px;
-        font-size: 1.6em;
-        
-    }
+
+
+
+#tag-tool{
+    padding-top: 20px;
+    padding-bottom: 65px;
 }
 
-/* slide sau background */
-.section2 {
-    width: 80%;
-    position: relative;
-    top: -50px;
-    margin: 0  auto;
-    
-}
-.section2 a{
-    color: black;
-    text-decoration: none;
-}
-.section2 a:hover {
-    color:green;
-}
-.mySlideProduct {
-    max-width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#text-type[type=text] {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
     background-color: white;
-    
+    background-image: url('search-512.png');
+    background-size: 25px;
+    background-position: 8px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
 
-.box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    box-sizing: border-box;
-    font-size: 25px;
-}
-.glide__arrows button.normal{
-    color: black;
-    display: none;
-}
-.mySlideProduct:hover .glide__arrows .normal{
-    display: inline-block;
-}
-/* css cua quang cao  */
-section.ahuhuhu {
-    width: 80%;
-    margin: 20px auto;
-}
-.div2 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 20px auto;
-}
-.imageElement {
-    width: 48%;
-    
-}
-.imageElement img{
-    max-width: 100%;
-    height: auto;
-    box-sizing: border-box;
-}
-.imageElement img:hover{
-    transform: scale(1.02);
-}
-@media only screen and (max-width: 700px) {
-    .div2 {
-        display: block;
-    }
-    .imageElement {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+#list-product-title{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background: #73AD21;
+    padding: 20px;
 }
 
-
-
-/* css slide sản phẩm bán chạy */
-.div3 {
-    width: 80%;
-    text-align: center;
-    margin: 50px auto;
-}
-.div3 .item-slide {
-    display: flex; 
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 20px;
-
-}
-.div3 a{
-    text-decoration: none;
-    color: black;
-}
-.div3 a:hover{
-    color: green;
-}
-.product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    box-sizing: border-box;
-    font-size: 25px;
-    margin:0 30px;
-    max-width: 250px;
+#list-title{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background: #73AD21;
+    padding: 20px;
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
+#form-2{
+    margin-top: 50px;
 }
 
-.item-slide:hover .glide__arrows .normal{
-    display: inline-block;
-}
-/*reponse cua san pham ban chay */
-@media only screen and (max-width: 1166px) {
-    
-}
-/* css cua tin tuc */
-article.section3{
-    
-    width: 80%;
-    /* height: 200px; */
+.tag{
+    float: left;
+    width: 75%;
+    font-size: larger;
+    cursor: auto;
+    color: grey;
     position: relative;
-    top: 50px;
-    margin: 0 auto;
-    padding: 20px 0;
+    top: 8px;
+    left: 40px;
 }
 
-.div4 h2{
-    text-align: center;
-    margin: 20px 0 25px;
+.tag a:visited{
+    color: grey;
 }
 
-.all-article{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.all-article a{
-    max-width: 30%;
+.tag a:hover{
+    cursor: pointer;
     color: black;
+    font-weight: bold;
     text-decoration: none;
-    
-}
-a .article-element {
-    padding: 10px 25px;
-
-}
-a .article-element:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a .article-element img{
-    margin-bottom: 13px;
+.searching{
+    float: left;
+    width: 25%;
 }
 
-.article-element img{
-    max-width: 100%;
-    height: auto;
-    
+.dot{
+    background: grey;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
 }
+
+.list-product a{
+    color: black;
+    border-left: 1px solid green;
+    list-style-type: none;
+}
+
+.list-product a:hover{
+    background-color: #73AD21;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.list-commoner img{
+    margin-right: 10px;
+}
+
+.list-product a:hover{
+    text-decoration: none;
+}
+
+.list-commoner li{
+    border-left: 1px solid green;
+    list-style-type: none;
+}
+
+.list-commoner li:hover{
+    background-color: #73AD21;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.list-commoner a{
+    color: black;
+}
+
+.list-commoner a:hover{
+    text-decoration: none;
+}
+
+.product-all{
+    text-align: center;
+}
+
+
+
+
 /* css cua footer */
 footer {
     background-color: #252932;
@@ -651,3 +544,8 @@ footer .all-element-footer .element-footer-info{
         margin-bottom: 40px;
     }
 }
+
+
+
+
+
