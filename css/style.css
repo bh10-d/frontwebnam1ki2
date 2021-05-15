@@ -1,3 +1,4 @@
+@charset "ISO-8859-1";
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster+Two:ital@1&display=swap');
 
 body,*,html {
@@ -19,7 +20,12 @@ header .header {
     align-items: center;
     z-index: 999;
     font-size: 40px;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
+=======
+    font-family: 'Cookie', cursive;
+    font-family: 'Lobster Two', cursive;
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 }
 header .header .logo {
     width: 150px;
@@ -61,6 +67,7 @@ header .header .navbar-search button[type=submit]{
     background-color: greenyellow;
     border-radius: 0 5px 5px 0;
 }
+<<<<<<< HEAD
 
 /*animation form login and register*/
 
@@ -109,6 +116,8 @@ header .header .navbar-search button[type=submit]{
 
 
 
+=======
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 @media only screen and (max-width: 970px) {
     
     header .header .navbar-search{
@@ -122,10 +131,17 @@ header .header .navbar-search button[type=submit]{
         display: none;
     }
     
+<<<<<<< HEAD
 
     
 }
 
+=======
+
+    
+}
+
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 /* navbar */
 nav{
     position: sticky;
@@ -195,7 +211,11 @@ nav .navbar .search-sign {
     height: 100%;
     position: fixed;
     top: 0;
+<<<<<<< HEAD
     left: -100%;
+=======
+    left: 0;
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
     z-index: 999;
@@ -242,11 +262,14 @@ nav .navbar .search-sign {
 .SignIn-LogIn-nav {
     display: none
 }
+<<<<<<< HEAD
 nav .navbar .navbar-link {
     display: flex;
     justify-content: space-around;
 }
 
+=======
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 
 nav .navbar .navbar-link a {
     text-decoration: none;
@@ -321,6 +344,7 @@ header .header .navbar-search form{
     width: 100%;
     height: 80vh;
 }
+<<<<<<< HEAD
 .background h1{
     position: absolute;
     top: 40%;
@@ -381,6 +405,8 @@ header .header .navbar-search form{
         
     }
 }
+=======
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 
 /* slide sau background */
 .section2 {
@@ -496,10 +522,14 @@ section.ahuhuhu {
 .item-slide:hover .glide__arrows .normal{
     display: inline-block;
 }
+<<<<<<< HEAD
 /*reponse cua san pham ban chay */
 @media only screen and (max-width: 1166px) {
     
 }
+=======
+
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
 /* css cua tin tuc */
 article.section3{
     
@@ -527,15 +557,15 @@ article.section3{
     text-decoration: none;
     
 }
-a .article-element {
+.all-article a .article-element {
     padding: 10px 25px;
 
 }
-a .article-element:hover {
+.all-article a .article-element:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a .article-element img{
+.all-article a .article-element img{
     margin-bottom: 13px;
 }
 
@@ -544,6 +574,28 @@ a .article-element img{
     height: auto;
     
 }
+/*responsive cua tin tuc */
+@media only screen and (max-width: 950px) {
+	.all-article{
+    	max-width: 100%;
+    	display:block;
+        
+	}
+	.all-article a{
+    	width: 100%;
+    	color: black;
+    	text-decoration: none;
+	}
+	.all-article a .article-element{
+		width: 100%;
+        text-align: center;
+	}
+    .all-article a .article-element img{
+        margin: 0 auto;
+    }
+}
+
+
 /* css cua footer */
 footer {
     background-color: #252932;
@@ -650,4 +702,8 @@ footer .all-element-footer .element-footer-info{
     .link-social {
         margin-bottom: 40px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9658de6e354051eae51937157395d5e601a78f33
