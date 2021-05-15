@@ -337,7 +337,7 @@ header .header .navbar-search form {
 
 /*start body*/
 .imgbackg{
-    background-image: url(img/background1.jpg);
+    /* background-image: url(); */
     background-size: contain;
     background-repeat: repeat-y;
     background-attachment: inherit;
@@ -368,9 +368,41 @@ header .header .navbar-search form {
     background-color: #d7d7dd;
 }
 
+.center-post h2{
+    padding: 0 15px;
+}
 
+.title-post{
+    width: 30%;
+    text-decoration: none !important;
+    align-self: center;
+}
 
 .element-center-post{
+    padding: 0 15px;
+    border-bottom: 1px solid black;
+}
+
+.element-center-post .e1{
+    max-width: 20%;
+}
+
+.element-center-post .e1 h6{
+    color: #8F9193;
+    font-weight: 400;
+}
+
+.element-center-post .e2{
+    padding: 0 10px;
+    width: 20%;
+}
+
+.element-center-post .e2 h6{
+    color: #8F9193;
+    font-weight: 400;
+}
+
+/* .element-center-post{
     border-bottom: 1px solid black;
 }
 
@@ -380,7 +412,7 @@ header .header .navbar-search form {
 
 .element-center-post .e2{
     margin-left: 30px;
-}
+} */
 
 @media screen and (max-width:576px){
     .element-center-post .e1{
@@ -430,7 +462,15 @@ header .header .navbar-search form {
     }
 }
 
+.right-side{
+    margin-left: -20px;
+}
 
+@media screen and (max-width:768px){
+    .right-side{
+        margin-left: 0px;
+    }
+}
 /*end body*/
 
 /*start footer*/
