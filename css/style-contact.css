@@ -26,9 +26,7 @@ header .header {
   justify-content: space-around; 
   align-items: center;
   z-index: 999;
-  font-size: 40px;
-  font-family: 'Cookie', cursive;
-  font-family: 'Lobster Two', cursive;
+  font-size: 18px;
 }
 header .header .logo {
   width: 150px;
@@ -65,7 +63,7 @@ header .header .navbar-search button[type=submit]{
   background-color: white;
   cursor: pointer;
   float: left;
-  font-size: 10px;
+  font-size: 15px;
   border: none;
   background-color: greenyellow;
   border-radius: 0 5px 5px 0;
@@ -358,9 +356,10 @@ header .header .navbar-search form{
 .text-right button{
   outline: none;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #8CC63F;
-  height: 30px;
+  height: 40px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 

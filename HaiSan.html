@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/RauCu.css">
+    <link rel="stylesheet" href="css/style-raucu.css">
 
     <!-- link bootstrap for Login Logout -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,23 +17,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/style-blog.css">
-    <!-- <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.css.map">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css.map">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css.map"> -->
-
+    <!--2 button dang nhap dang ky thi dung css style-login-signup-->
+    <link rel="stylesheet" href="css/style-login-signup.css">
+    <!--check co nhap du cac truong hay chua-->
+    <script src="js/vadi-login-signup.js"></script>
     <!-- <link rel="stylesheet" href="glide.theme.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
     <!--End.....-->
 
 
@@ -193,17 +183,21 @@
                                 <h4 class="modal-title">Đăng Nhập</h4>
                             </div>
                             <div class="modal-body text-left">
-                                <form action="/panel.html">
+                                <form action="/panel.html" class="needs-validation" novalidate>
                                     <div class="form-group">
                                         <div class="form-label-group">
-                                            <input type="text" class="form-control" id="username" placeholder="Nhập tài khoản" name="email">
+                                            <input type="text" class="form-control" id="username" placeholder="Nhập tài khoản" name="email" required>
                                             <label for="username">Tài Khoản</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="form-label-group">
-                                            <input type="password" class="form-control" id="pwdd" placeholder="Nhập mật khẩu" name="pswd">
+                                            <input type="password" class="form-control" id="pwdd" placeholder="Nhập mật khẩu" name="pswd" required>
                                             <label for="pwdd">Mật khẩu</label>
+                                            <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                                         </div>
                                     </div>
                                     <div class="form-group form-check">

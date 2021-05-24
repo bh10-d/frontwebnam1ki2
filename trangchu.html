@@ -19,17 +19,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
-    <!-- link bootrap hieu
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/style-blog.css">
-
+    <!-- link bootrap hieu -->
+    <link rel="stylesheet" href="css/style-login-signup.css">
+    <script src="js/vadi-login-signup.js"></script>
     <title>Document</title>
 </head>
 
@@ -167,19 +159,23 @@
                         <h4 class="modal-title">Đăng Nhập</h4>
                     </div>
                     <div class="modal-body text-left">
-                        <form action="/panel.html">
+                        <form action="/panel.html" class="needs-validation" novalidate>
                             <div class="form-group">
                                 <div class="form-label-group">
                                     <input type="text" class="form-control" id="username"
-                                        placeholder="Nhập tài khoản" name="email">
+                                        placeholder="Nhập tài khoản" name="email" required>
                                     <label for="username">Tài Khoản</label>
+                                    <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="form-label-group">
                                     <input type="password" class="form-control" id="pwdd"
-                                        placeholder="Nhập mật khẩu" name="pswd">
+                                        placeholder="Nhập mật khẩu" name="pswd" required>
                                     <label for="pwdd">Mật khẩu</label>
+                                    <div class="valid-feedback">Có hiệu lực</div>
+                                            <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                                 </div>
                             </div>
                             <div class="form-group form-check">

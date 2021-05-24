@@ -19,8 +19,7 @@ header .header {
     justify-content: space-around; 
     align-items: center;
     z-index: 999;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 header .header .logo {
     width: 150px;
@@ -35,8 +34,6 @@ header .header .navbar-search {
     padding: 0;
     width: 50%;
     height: 40px;
-    
-    
 }
 header .header .navbar-search input[type=text]{
     width: 80%;
@@ -57,7 +54,7 @@ header .header .navbar-search button[type=submit]{
     background-color: white;
     cursor: pointer;
     float: left;
-    font-size: 10px;
+    font-size: 15px;
     border: none;
     background-color: greenyellow;
     border-radius: 0 5px 5px 0;
@@ -296,55 +293,9 @@ header .header .navbar-search form{
     }
 }
 
-
-
-
 /*animation form login and register*/
-
-.form-label-group {
-    position: relative;
-}
-  
-.form-label-group > input,
-.form-label-group > label {
-    padding: var(--input-padding-y) var(--input-padding-x);
-    height: auto;
-}
-  
-.form-label-group > label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    margin-bottom: 0;
-    line-height: 1.5;
-    color: #495057;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    -webkit-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-  
-.form-label-group input::-webkit-input-placeholder {
-    color: transparent;
-}
-  
-.form-label-group input:not(:placeholder-shown) {
-    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
-    padding-bottom: calc(var(--input-padding-y) / 3);
-}
-  
-.form-label-group input:not(:placeholder-shown) ~ label {
-    padding-top: calc(var(--input-padding-y) / 3);
-    padding-bottom: calc(var(--input-padding-y) / 3);
-    font-size: 12px;
-    color: #777;
-}
+/*cai nay t da viet 1 css de danh rieng cho phan nay roi --by hieu*/
 /*end animation form login and register*/
-
-
-
 
 #tag-tool{
     padding-top: 20px;
