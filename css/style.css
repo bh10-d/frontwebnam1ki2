@@ -417,6 +417,11 @@ header .header .navbar-search form{
     box-sizing: border-box;
     font-size: 25px;
 }
+
+.box:hover{
+    background-color: gainsboro;
+}
+
 .glide__arrows button.normal{
     color: black;
     display: none;
