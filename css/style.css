@@ -272,7 +272,7 @@ header .header .navbar-search form{
 }
 /* background chinh cua trang web */
 .background {
-    background-image: url("/Image/background_last.jpg");
+    background-image: url("../Image/background_last.jpg");/*bo sung the the style ben html chay trong moi truong hop*/
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
