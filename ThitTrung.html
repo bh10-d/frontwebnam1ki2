@@ -32,55 +32,18 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav> -->
     <!-- phan dau cua trang web -->
     <header>
         <div class="header">
             <div class="logo">
                 <a href="trangchu.html"><img src="Image/logo.png" alt=""></a>
             </div>
-
             <div class="navbar-search">
                 <form action="#">
                     <input type="text" name="search" placeholder="Search...">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
-
             </div>
-
-
-            <!-- <div class="SignIn-LogIn">
-          <button type="submit" class="btn btn-outline-primary">Sign up</button>
-          <button type="submit" class="btn btn-outline-success">Log in</button>
-      </div> -->
-
-
-
             <!-- login register.... -->
             <div class="SignIn-LogIn">
                 <a href="register.html" class="btn bg-btn" data-toggle="modal" data-target="#myRegister">Đăng kí</a>
@@ -166,9 +129,6 @@
                                     </div>
                                     <div class="text-center">
                                         <div class="row">
-                                            <!-- <div class="col-md-3">
-                                                <a href="loginv2.html" class="btn text-primary">Đăng nhập</a>
-                                            </div> -->
                                             <div class="col-md-12">
                                                 <button type="submit" class="btn btn-primary register">Đăng kí</button>
                                             </div>
@@ -228,8 +188,6 @@
                 </div>
             </div>
             <!-- end login register -->
-
-
         </div>
     </header>
 
@@ -241,7 +199,6 @@
                 <button type="button" onclick="openBtn()">
                     <i class="fa fa-bars"></i>
                 </button>
-
             </div>
 
             <div id="myNav" class="bars-reponsive">
@@ -278,8 +235,6 @@
                         </ul>
                     </div>
                 </div>
-
-
                 <!-- <a href="RauCu.html">CỬA HÀNG</a> -->
                 <div class="head-link"><a href="blog.html">TIN TỨC</a></div>
                 <div class="head-link"><a href="lienhe.html">LIÊN HỆ</a></div>
@@ -315,15 +270,19 @@
     <!--Main-->
     <div class="bg-light">
         <div class="container-fluid" id="tag-tool">
-            <div class="tag">
-                <a href="trangchu.html" style="font-weight: bold;">TRANG CHỦ</a>
-                <span>/</span>
-                <a href="ThitTrung.html" class="active" style="color: black;font-weight: bold;">THỊT TRỨNG</a>
-            </div>
-            <div class="searching">
-                <form>
-                    <input type="text" id="text-type" name="search" placeholder="Nhập Sản Phẩm...">
-                </form>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="tag">
+                        <a href="" style="font-weight: bold;">TRANG CHỦ</a>
+                        <span>/</span>
+                        <a href="RauCu.html" class="active" style="color: black;font-weight: bold;">THỊT TRỨNG</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
+                    <form class="searching">
+                        <input type="text" id="text-type" name="search" placeholder="Nhập Sản Phẩm...">
+                    </form>
+                </div>
             </div>
         </div>
         <div class="container-fluid">
@@ -489,27 +448,20 @@
         </div>
     </div>
 
-
-
     <!-- html footer  -->
     <footer>
         <h2>Hãy đến với chúng tôi</h2>
         <div class="all-element-footer">
-
             <div class="element-footer-info">
                 <div class="logo">
                     <a href="trangchu.html"></a><img src="Image/logo.png" alt="">
                 </div>
-
-
                 <p><span><i class="fas fa-map-marker-alt"></i></span>193 Nguyễn Lương Bằng, Quận Liên Chiểu,<br>TP. Đà
                     Nẵng</p>
                 <p><span><i class="fas fa-phone"></i></span>0123456789</p>
                 <p><span><i class="fas fa-envelope"></i></span>ahihi@gmail.com</p>
                 <p><span><i class="fab fa-facebook-square"></i></span>https://facebook/info/huyleader</p>
-
             </div>
-
             <div class="element-footer">
                 <h5>Sản phẩm</h5>
                 <a href="RauCu.html" class="footer-link">Rau củ</a>
@@ -519,46 +471,36 @@
                 <a href="DoKho.html" class="footer-link">Đồ khô</a>
                 <a href="ThitTrung.html" class="footer-link">Thịt trứng</a>
             </div>
-
             <div class="element-footer">
                 <h5>Danh mục</h5>
                 <a href="trangchu.html" class="footer-link">Trang chủ</a>
                 <a href="gioithieu.html" class="footer-link">Giới thiệu</a>
                 <a href="RauCu.html" class="footer-link">Cửa hàng</a>
             </div>
-
             <div class="element-footer">
                 <h5>Dịch vụ</h5>
                 <a href="lienhe.html" class="footer-link">Liên hệ</a>
                 <a href="blog.html" class="footer-link">Tin tức</a>
             </div>
-
             <div class="element-footer">
                 <h5>Đăng kí</h5>
                 <p>Đăng kí để nhận được thông tin mới nhất từ chúng tôi</p>
-
                 <div class="footer-container-form">
                     <form action="#">
                         <input type="text">
                         <button type="submit"><i class="far fa-paper-plane"></i></button>
                     </form>
                 </div>
-
                 <div class="link-social">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
-
-
             </div>
         </div>
 
     </footer>
-
-
-
 
     <script>
         $(document).ready(function () {
@@ -570,9 +512,7 @@
             });
         });
     </script>
-    <script src="javascript.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
