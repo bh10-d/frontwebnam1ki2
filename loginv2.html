@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styleloginv2.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Đăng nhập</title>
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="card card-login mx-auto mt-5">
+      <div class="card-header">
+        <h4>Đăng nhập</h4>
+      </div>
+      <div class="card-body">
+        <form  class="needs-validation" novalidate>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="text" id="inputUsername" class="form-control" placeholder="Nhập tài khoản"
+                required="required" autofocus="autofocus">
+              <label for="inputUsername">Nhập tài khoản</label>
+              <div class="invalid-feedback">Vui lòng nhập tài khoản</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="password" id="inputPassword" class="form-control" placeholder="Nhập mật khẩu"
+                required="required">
+              <label for="inputPassword">Nhập mật khẩu</label>
+              <div class="invalid-feedback">Vui lòng nhập mật khẩu</div>
+              <!-- <div class="feedback-pass">Độ dài mật khẩu tối thiểu là 8 ký tự</div> -->
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="remember-me">
+                Ghi nhớ đăng nhập
+              </label>
+            </div>
+          </div>
+          <!-- <a type="submit" class="btn btn-primary btn-block" href="blog.html">Login</a> -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+          </div>
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="register.html">Đăng kí tài khoản</a>
+          <a class="d-block small" href="forgot-password.html">Quên mật khẩu?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+</body>
+
+</html>

@@ -62,7 +62,7 @@ header .header .navbar-search button[type=submit] {
     float: left;
     font-size: 15px;
     border: none;
-    background-color: greenyellow;
+    background:linear-gradient(to bottom right, var(--bg1),var(--bg2),var(--bg3));
     border-radius: 0 5px 5px 0;
 }
 
@@ -87,7 +87,7 @@ nav .navbar {
     height: 55px;
     display: flex;
     justify-content: center;
-    background-color: greenyellow;
+    background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
 }
 
 nav .navbar .nav-sign {
@@ -120,7 +120,7 @@ nav .navbar .bars-reponsive a.closebtn:hover {
 
 nav .navbar .bars-reponsive .bars-reponsive-content {
     position: relative;
-    top: 25%;
+    top: 20%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -191,7 +191,7 @@ nav .navbar .search-sign {
     border: none;
     outline: none;
     border-radius: 0 5px 5px 0;
-    background-color: greenyellow;
+    background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
 }
 
 @media only screen and (max-width: 970px) {
@@ -241,7 +241,7 @@ header .header .navbar-search form {
     }
 
     nav .navbar .nav-sign button {
-      background-color: greenyellow;
+      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
       border: none;
       outline: none;
       font-size: 30px;
@@ -258,7 +258,7 @@ header .header .navbar-search form {
     }
 
     nav .navbar .search-sign button {
-      background-color: greenyellow;
+      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
       border: none;
       outline: none;
       font-size: 30px;
@@ -274,7 +274,7 @@ header .header .navbar-search form {
     }
 
     nav .navbar .SignIn-LogIn-nav button {
-      background-color: greenyellow;
+      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
       border: none;
       outline: none;
       font-size: 30px;

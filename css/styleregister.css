@@ -1,0 +1,68 @@
+/* .layout{
+    border: 0.5px solid #e8e8e8;
+    border-radius: 10px;
+    margin-top: 100px;
+} */
+
+
+/* .container{
+    max-width: 400px !important;
+} */
+
+
+.card-register{
+    max-width: 40rem;
+}
+
+
+:root {
+    --input-padding-x: 0.75rem;
+    --input-padding-y: 0.75rem;
+}
+.form-label-group {
+    position: relative;
+}
+  
+.form-label-group > input,
+.form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+}
+  
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+  
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+  
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+  
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+@media screen and (max-width:576px){
+    .e{
+        margin-bottom: 15px;
+    }
+}
+
