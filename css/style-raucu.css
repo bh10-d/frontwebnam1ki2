@@ -361,6 +361,7 @@ header .header .navbar-search form{
 }
 
 .searching input{
+    background-image: url(Image/logoSearch.png);
     top: 8px;
     width: 50%;
 }
