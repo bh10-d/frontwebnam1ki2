@@ -17,9 +17,9 @@ header {
     justify-content: space-around; 
     align-items: center;
     z-index: 999;
-    font-size: 40px;
-    font-family: 'Cookie', cursive;
-    font-family: 'Lobster Two', cursive;
+    font-size: 18px;
+    /* font-family: 'Cookie', cursive;
+    font-family: 'Lobster Two', cursive; */
   }
   header .header .logo {
     width: 150px;

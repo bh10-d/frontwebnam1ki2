@@ -85,8 +85,12 @@ header .header .navbar-search button[type=submit]{
     .SignIn-LogIn {
         display: none;
     }
+    header {
+        display: none;
+    }
     
 }
+
 
 /* navbar */
 nav{
@@ -98,11 +102,12 @@ nav{
 nav .navbar {
     
     width: 100%;
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
-
+    /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 6px gray;
 }
 
 nav .navbar .nav-sign {
@@ -148,6 +153,21 @@ nav .navbar .bars-reponsive .bars-reponsive-content a{
 nav .navbar .bars-reponsive .bars-reponsive-content a:hover{
     color: white;
 }
+
+/*                      */
+nav .navbar .imgnav img{
+    width: 70px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+/*css logo respon*/
+
+nav .navbar .imgrespon{
+    display: none;
+}
+
+
 /* css cua nut search */
 nav .navbar .search-sign {
     display: none;
@@ -165,7 +185,7 @@ nav .navbar .search-sign {
 .navbar .search-responsive a.closebtn{
     font-size: 50px;
     position: absolute;
-    top: 5%;
+    /* top: 5%; */
     right: 7%;
     text-decoration: none;
     color: greenyellow;
@@ -200,10 +220,10 @@ nav .navbar .search-sign {
 }
 
 
-
 .SignIn-LogIn-nav {
     display: none
 }
+
 nav .navbar .navbar-link {
     display: flex;
     justify-content: space-around;
@@ -212,10 +232,21 @@ nav .navbar .navbar-link {
 
 nav .navbar .navbar-link a {
     text-decoration: none;
-    margin: 10px;
-    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+    color: #252932;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
 }
 
+nav .navbar .navbar-link a:hover{
+    background-color: #8CC63F;
+    transition: 0.5s;
+}
 
 header .header .navbar-search form{
     width: 100%;
@@ -239,10 +270,12 @@ header .header .navbar-search form{
         z-index: 99;
     }
     nav .navbar .nav-sign button{
-        background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
+        /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+        background-color: rgba(255, 255, 255, 0);
         border: none;
         outline: none;
-        font-size: 30px;
+        margin-top: -10px;
+        font-size: 19px;
     }
     nav .navbar .nav-sign button:active{
         color: white;
@@ -253,28 +286,58 @@ header .header .navbar-search form{
         
     }
     nav .navbar .search-sign button{
-        background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
+        /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+        background-color: rgba(255, 255, 255, 0);
         border: none;
         outline: none;
-        font-size: 30px;
+        margin-top: -10px;
+        font-size: 19px;
     }
     nav .navbar .search-sign button:active{
         color: white;
     }
-    nav .navbar .SignIn-LogIn-nav{
+
+    nav .navbar .imgrespon{
         display: inline-block;
-        z-index: 99; 
+        z-index: 99;
     }
-    nav .navbar .SignIn-LogIn-nav button {
-        background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
+    nav .navbar .imgrespon img{
+        width: 70px;
         border: none;
         outline: none;
-        font-size: 30px;
     }
-    nav .navbar .SignIn-LogIn-nav button:active{
-        color:aliceblue;
+    nav .navbar .imgnav img{
+        display: none;
+        width: 0px;
+        margin-right: 0px;
+        text-align: unset;
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* background chinh cua trang web */
 .background {
     background-image: url("../Image/background_last.jpg");/*bo sung the the style ben html chay trong moi truong hop*/

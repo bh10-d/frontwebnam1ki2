@@ -66,35 +66,55 @@ header .header .navbar-search button[type=submit] {
     border-radius: 0 5px 5px 0;
 }
 
-.bg-btn{
+@media only screen and (max-width: 970px) {
+    
+    header .header .navbar-search{
+        display: none;
+    }
+    header .header .logo {
+        width: 150px;
+        margin: 10px auto;
+    }
+    .SignIn-LogIn {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    
+}
+
+/* .bg-btn{
     background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
 }
 
 .bg-btn:hover{
     background-position: right;
-}
+} */
 
 /*nav*/
-nav {
+/* navbar */
+nav{
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
 }
-
 nav .navbar {
+    
     width: 100%;
-    height: 55px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
+    /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 6px gray;
 }
 
 nav .navbar .nav-sign {
     display: none;
 }
-
-nav .navbar .bars-reponsive {
+nav .navbar .bars-reponsive{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -104,8 +124,7 @@ nav .navbar .bars-reponsive {
     transition: 0.5s;
     z-index: 999;
 }
-
-nav .navbar .bars-reponsive a.closebtn {
+nav .navbar .bars-reponsive a.closebtn{
     font-size: 50px;
     position: absolute;
     top: 5%;
@@ -113,36 +132,47 @@ nav .navbar .bars-reponsive a.closebtn {
     text-decoration: none;
     color: greenyellow;
 }
-
-nav .navbar .bars-reponsive a.closebtn:hover {
+nav .navbar .bars-reponsive a.closebtn:hover{
     color: white;
 }
-
-nav .navbar .bars-reponsive .bars-reponsive-content {
+nav .navbar .bars-reponsive .bars-reponsive-content{
     position: relative;
     top: 20%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-}
 
-nav .navbar .bars-reponsive .bars-reponsive-content a {
+}
+nav .navbar .bars-reponsive .bars-reponsive-content a{
     display: block;
     padding: 8px;
     font-size: 30px;
     text-decoration: none;
     color: greenyellow;
-}
 
-nav .navbar .bars-reponsive .bars-reponsive-content a:hover {
+}
+nav .navbar .bars-reponsive .bars-reponsive-content a:hover{
     color: white;
 }
 
-  /* css cua nut search */
-nav .navbar .search-sign {
+/*                      */
+nav .navbar .imgnav img{
+    width: 70px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+/*css logo respon*/
+
+nav .navbar .imgrespon{
     display: none;
 }
 
+
+/* css cua nut search */
+nav .navbar .search-sign {
+    display: none;
+}
 .navbar .search-responsive {
     width: 100%;
     height: 100%;
@@ -151,19 +181,17 @@ nav .navbar .search-sign {
     left: -100%;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
-    /* z-index: 999; */
+    z-index: 999;
 }
-
-.navbar .search-responsive a.closebtn {
+.navbar .search-responsive a.closebtn{
     font-size: 50px;
     position: absolute;
-    top: 5%;
+    /* top: 5%; */
     right: 7%;
     text-decoration: none;
     color: greenyellow;
 }
-
-.navbar .search-responsive .search-responsive-content {
+.navbar .search-responsive .search-responsive-content{
     position: relative;
     top: 45%;
     background-color: red;
@@ -172,8 +200,7 @@ nav .navbar .search-sign {
     margin: auto;
 
 }
-
-.navbar .search-responsive .search-responsive-content input[type=text] {
+.navbar .search-responsive .search-responsive-content input[type=text]{
     float: left;
     width: 80%;
     padding: 10px;
@@ -181,12 +208,11 @@ nav .navbar .search-sign {
     outline: none;
     border-radius: 5px 0 0 5px;
 }
-
-.navbar .search-responsive .search-responsive-content button[type=submit] {
+.navbar .search-responsive .search-responsive-content button[type=submit]{
     float: left;
     width: 15%;
     height: 44px;
-    padding: 3px;
+    padding:3px;
     font-size: 20px;
     border: none;
     outline: none;
@@ -194,95 +220,100 @@ nav .navbar .search-sign {
     background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
 }
 
-@media only screen and (max-width: 970px) {
-    header .header .navbar-search {
-      display: none;
-    }
-
-    header .header .logo {
-      width: 150px;
-      margin: 10px auto;
-    }
-
-    .SignIn-LogIn {
-      display: none;
-    }
-}
 
 .SignIn-LogIn-nav {
     display: none
 }
 
+nav .navbar .navbar-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 nav .navbar .navbar-link a {
     text-decoration: none;
-    margin: 10px;
-    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+    color: #252932;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+  }
+
+nav .navbar .navbar-link a:hover{
+    background-color: #8CC63F;
+    transition: 0.5s;
 }
 
-header .header .navbar-search form {
+header .header .navbar-search form{
     width: 100%;
-    padding: 0 100px;
+    padding: 0 100px;   
 }
-
 /* navbar responsive */
 @media only screen and (max-width: 970px) {
+    
     nav .navbar {
-      display: flex;
-      justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+        
     }
-
     nav .navbar .navbar-link {
-      display: none;
+        display: none;
+        
     }
-
+    
     nav .navbar .nav-sign {
-      display: inline-block;
-      z-index: 99;
+        display: inline-block;
+        z-index: 99;
     }
-
-    nav .navbar .nav-sign button {
-      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
-      border: none;
-      outline: none;
-      font-size: 30px;
+    nav .navbar .nav-sign button{
+        /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        outline: none;
+        margin-top: -10px;
+        font-size: 19px;
     }
-
-    nav .navbar .nav-sign button:active {
-      color: white;
+    nav .navbar .nav-sign button:active{
+        color: white;
     }
-
     nav .navbar .search-sign {
-      display: inline-block;
-      z-index: 99;
-
+        display: inline-block;
+        z-index: 99;
+        
+    }
+    nav .navbar .search-sign button{
+        /* background: linear-gradient(to bottom right, var(--bg1),var(--bg2)); */
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        outline: none;
+        margin-top: -10px;
+        font-size: 19px;
+    }
+    nav .navbar .search-sign button:active{
+        color: white;
     }
 
-    nav .navbar .search-sign button {
-      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
-      border: none;
-      outline: none;
-      font-size: 30px;
+    nav .navbar .imgrespon{
+        display: inline-block;
+        z-index: 99;
+    }
+    nav .navbar .imgrespon img{
+        width: 70px;
+        border: none;
+        outline: none;
+    }
+    nav .navbar .imgnav img{
+        display: none;
+        width: 0px;
+        margin-right: 0px;
+        text-align: unset;
     }
 
-    nav .navbar .search-sign button:active {
-      color: white;
-    }
-
-    nav .navbar .SignIn-LogIn-nav {
-      display: inline-block;
-      z-index: 99;
-    }
-
-    nav .navbar .SignIn-LogIn-nav button {
-      background: linear-gradient(to bottom right, var(--bg1),var(--bg2));
-      border: none;
-      outline: none;
-      font-size: 30px;
-    }
-
-    nav .navbar .SignIn-LogIn-nav button:active {
-      color: aliceblue;
-    }
 }
 
 /*animation form login and register*/
